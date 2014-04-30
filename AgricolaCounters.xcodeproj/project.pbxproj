@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA846D21910ADA400C689C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA846D11910ADA400C689C6 /* Foundation.framework */; };
+		0BA846D41910ADA400C689C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA846D31910ADA400C689C6 /* CoreGraphics.framework */; };
+		0BA846D61910ADA400C689C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA846D51910ADA400C689C6 /* UIKit.framework */; };
+		0BA846DC1910ADA400C689C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BA846DA1910ADA400C689C6 /* InfoPlist.strings */; };
+		0BA846DE1910ADA400C689C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA846DD1910ADA400C689C6 /* main.m */; };
+		0BA846E21910ADA400C689C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA846E11910ADA400C689C6 /* AppDelegate.m */; };
+		0BA846ED1910ADA400C689C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA846EC1910ADA400C689C6 /* Images.xcassets */; };
+		0BA846F41910ADA400C689C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA846F31910ADA400C689C6 /* XCTest.framework */; };
+		0BA846F51910ADA400C689C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA846D11910ADA400C689C6 /* Foundation.framework */; };
+		0BA846F61910ADA400C689C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA846D51910ADA400C689C6 /* UIKit.framework */; };
+		0BA846FE1910ADA400C689C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BA846FC1910ADA400C689C6 /* InfoPlist.strings */; };
+		0BA847001910ADA400C689C6 /* AgricolaCountersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA846FF1910ADA400C689C6 /* AgricolaCountersTests.m */; };
+		0BA847221910EBB300C689C6 /* ResourceCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8471F1910EBB300C689C6 /* ResourceCard.m */; };
+		0BA847231910EBB300C689C6 /* ResourceCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA847211910EBB300C689C6 /* ResourceCardCollectionViewCell.m */; };
+		0BA847261910EBC400C689C6 /* CardCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA847251910EBC400C689C6 /* CardCollectionViewController.m */; };
+		0BA847291910EBCD00C689C6 /* cardBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA847271910EBCD00C689C6 /* cardBoard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BA846F71910ADA400C689C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BA846C61910ADA400C689C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA846CD1910ADA400C689C6;
+			remoteInfo = AgricolaCounters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA846CE1910ADA400C689C6 /* AgricolaCounters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgricolaCounters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA846D11910ADA400C689C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BA846D31910ADA400C689C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BA846D51910ADA400C689C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BA846D91910ADA400C689C6 /* AgricolaCounters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgricolaCounters-Info.plist"; sourceTree = "<group>"; };
+		0BA846DB1910ADA400C689C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BA846DD1910ADA400C689C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BA846DF1910ADA400C689C6 /* AgricolaCounters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AgricolaCounters-Prefix.pch"; sourceTree = "<group>"; };
+		0BA846E01910ADA400C689C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BA846E11910ADA400C689C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BA846EC1910ADA400C689C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BA846F21910ADA400C689C6 /* AgricolaCountersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgricolaCountersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA846F31910ADA400C689C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0BA846FB1910ADA400C689C6 /* AgricolaCountersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgricolaCountersTests-Info.plist"; sourceTree = "<group>"; };
+		0BA846FD1910ADA400C689C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BA846FF1910ADA400C689C6 /* AgricolaCountersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgricolaCountersTests.m; sourceTree = "<group>"; };
+		0BA8471E1910EBB300C689C6 /* ResourceCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceCard.h; sourceTree = "<group>"; };
+		0BA8471F1910EBB300C689C6 /* ResourceCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceCard.m; sourceTree = "<group>"; };
+		0BA847201910EBB300C689C6 /* ResourceCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceCardCollectionViewCell.h; sourceTree = "<group>"; };
+		0BA847211910EBB300C689C6 /* ResourceCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceCardCollectionViewCell.m; sourceTree = "<group>"; };
+		0BA847241910EBC400C689C6 /* CardCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewController.h; sourceTree = "<group>"; };
+		0BA847251910EBC400C689C6 /* CardCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewController.m; sourceTree = "<group>"; };
+		0BA847281910EBCD00C689C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/cardBoard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BA846CB1910ADA400C689C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA846D41910ADA400C689C6 /* CoreGraphics.framework in Frameworks */,
+				0BA846D61910ADA400C689C6 /* UIKit.framework in Frameworks */,
+				0BA846D21910ADA400C689C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA846EF1910ADA400C689C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA846F41910ADA400C689C6 /* XCTest.framework in Frameworks */,
+				0BA846F61910ADA400C689C6 /* UIKit.framework in Frameworks */,
+				0BA846F51910ADA400C689C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA846C51910ADA400C689C6 = {
+			isa = PBXGroup;
+			children = (
+				0BA846D71910ADA400C689C6 /* AgricolaCounters */,
+				0BA846F91910ADA400C689C6 /* AgricolaCountersTests */,
+				0BA846D01910ADA400C689C6 /* Frameworks */,
+				0BA846CF1910ADA400C689C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BA846CF1910ADA400C689C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA846CE1910ADA400C689C6 /* AgricolaCounters.app */,
+				0BA846F21910ADA400C689C6 /* AgricolaCountersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BA846D01910ADA400C689C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA846D11910ADA400C689C6 /* Foundation.framework */,
+				0BA846D31910ADA400C689C6 /* CoreGraphics.framework */,
+				0BA846D51910ADA400C689C6 /* UIKit.framework */,
+				0BA846F31910ADA400C689C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BA846D71910ADA400C689C6 /* AgricolaCounters */ = {
+			isa = PBXGroup;
+			children = (
+				0BA846E01910ADA400C689C6 /* AppDelegate.h */,
+				0BA846E11910ADA400C689C6 /* AppDelegate.m */,
+				0BA847271910EBCD00C689C6 /* cardBoard.storyboard */,
+				0BA847241910EBC400C689C6 /* CardCollectionViewController.h */,
+				0BA847251910EBC400C689C6 /* CardCollectionViewController.m */,
+				0BA846EC1910ADA400C689C6 /* Images.xcassets */,
+				0BA8471E1910EBB300C689C6 /* ResourceCard.h */,
+				0BA8471F1910EBB300C689C6 /* ResourceCard.m */,
+				0BA847201910EBB300C689C6 /* ResourceCardCollectionViewCell.h */,
+				0BA847211910EBB300C689C6 /* ResourceCardCollectionViewCell.m */,
+				0BA846D81910ADA400C689C6 /* Supporting Files */,
+			);
+			path = AgricolaCounters;
+			sourceTree = "<group>";
+		};
+		0BA846D81910ADA400C689C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BA846D91910ADA400C689C6 /* AgricolaCounters-Info.plist */,
+				0BA846DA1910ADA400C689C6 /* InfoPlist.strings */,
+				0BA846DD1910ADA400C689C6 /* main.m */,
+				0BA846DF1910ADA400C689C6 /* AgricolaCounters-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BA846F91910ADA400C689C6 /* AgricolaCountersTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BA846FF1910ADA400C689C6 /* AgricolaCountersTests.m */,
+				0BA846FA1910ADA400C689C6 /* Supporting Files */,
+			);
+			path = AgricolaCountersTests;
+			sourceTree = "<group>";
+		};
+		0BA846FA1910ADA400C689C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BA846FB1910ADA400C689C6 /* AgricolaCountersTests-Info.plist */,
+				0BA846FC1910ADA400C689C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BA846CD1910ADA400C689C6 /* AgricolaCounters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA847031910ADA400C689C6 /* Build configuration list for PBXNativeTarget "AgricolaCounters" */;
+			buildPhases = (
+				0BA846CA1910ADA400C689C6 /* Sources */,
+				0BA846CB1910ADA400C689C6 /* Frameworks */,
+				0BA846CC1910ADA400C689C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgricolaCounters;
+			productName = AgricolaCounters;
+			productReference = 0BA846CE1910ADA400C689C6 /* AgricolaCounters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BA846F11910ADA400C689C6 /* AgricolaCountersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA847061910ADA400C689C6 /* Build configuration list for PBXNativeTarget "AgricolaCountersTests" */;
+			buildPhases = (
+				0BA846EE1910ADA400C689C6 /* Sources */,
+				0BA846EF1910ADA400C689C6 /* Frameworks */,
+				0BA846F01910ADA400C689C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA846F81910ADA400C689C6 /* PBXTargetDependency */,
+			);
+			name = AgricolaCountersTests;
+			productName = AgricolaCountersTests;
+			productReference = 0BA846F21910ADA400C689C6 /* AgricolaCountersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BA846C61910ADA400C689C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael Len";
+				TargetAttributes = {
+					0BA846F11910ADA400C689C6 = {
+						TestTargetID = 0BA846CD1910ADA400C689C6;
+					};
+				};
+			};
+			buildConfigurationList = 0BA846C91910ADA400C689C6 /* Build configuration list for PBXProject "AgricolaCounters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BA846C51910ADA400C689C6;
+			productRefGroup = 0BA846CF1910ADA400C689C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BA846CD1910ADA400C689C6 /* AgricolaCounters */,
+				0BA846F11910ADA400C689C6 /* AgricolaCountersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BA846CC1910ADA400C689C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA846ED1910ADA400C689C6 /* Images.xcassets in Resources */,
+				0BA846DC1910ADA400C689C6 /* InfoPlist.strings in Resources */,
+				0BA847291910EBCD00C689C6 /* cardBoard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA846F01910ADA400C689C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA846FE1910ADA400C689C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA846CA1910ADA400C689C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA847261910EBC400C689C6 /* CardCollectionViewController.m in Sources */,
+				0BA847231910EBB300C689C6 /* ResourceCardCollectionViewCell.m in Sources */,
+				0BA846E21910ADA400C689C6 /* AppDelegate.m in Sources */,
+				0BA846DE1910ADA400C689C6 /* main.m in Sources */,
+				0BA847221910EBB300C689C6 /* ResourceCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA846EE1910ADA400C689C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA847001910ADA400C689C6 /* AgricolaCountersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BA846F81910ADA400C689C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BA846CD1910ADA400C689C6 /* AgricolaCounters */;
+			targetProxy = 0BA846F71910ADA400C689C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BA846DA1910ADA400C689C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BA846DB1910ADA400C689C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BA846FC1910ADA400C689C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BA846FD1910ADA400C689C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BA847271910EBCD00C689C6 /* cardBoard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BA847281910EBCD00C689C6 /* Base */,
+			);
+			name = cardBoard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BA847011910ADA400C689C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BA847021910ADA400C689C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BA847041910ADA400C689C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgricolaCounters/AgricolaCounters-Prefix.pch";
+				INFOPLIST_FILE = "AgricolaCounters/AgricolaCounters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BA847051910ADA400C689C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgricolaCounters/AgricolaCounters-Prefix.pch";
+				INFOPLIST_FILE = "AgricolaCounters/AgricolaCounters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BA847071910ADA400C689C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgricolaCounters.app/AgricolaCounters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgricolaCounters/AgricolaCounters-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AgricolaCountersTests/AgricolaCountersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0BA847081910ADA400C689C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgricolaCounters.app/AgricolaCounters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgricolaCounters/AgricolaCounters-Prefix.pch";
+				INFOPLIST_FILE = "AgricolaCountersTests/AgricolaCountersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BA846C91910ADA400C689C6 /* Build configuration list for PBXProject "AgricolaCounters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA847011910ADA400C689C6 /* Debug */,
+				0BA847021910ADA400C689C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA847031910ADA400C689C6 /* Build configuration list for PBXNativeTarget "AgricolaCounters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA847041910ADA400C689C6 /* Debug */,
+				0BA847051910ADA400C689C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA847061910ADA400C689C6 /* Build configuration list for PBXNativeTarget "AgricolaCountersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA847071910ADA400C689C6 /* Debug */,
+				0BA847081910ADA400C689C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BA846C61910ADA400C689C6 /* Project object */;
+}
