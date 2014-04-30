@@ -20,6 +20,7 @@ static NSDictionary *_cardTypeToString;
                           @(CardTypeCattle):@"Cattle",
                           @(CardTypeRock):@"Rock",
                           @(CardTypeReed):@"Reed",
+                          @(CardTypeWood):@"Wood"
                           };// [[NSDictionary alloc] initwit;
   return _cardTypeToString;
 }

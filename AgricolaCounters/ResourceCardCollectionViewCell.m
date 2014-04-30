@@ -17,12 +17,10 @@
 - (id)initWithFrame:(CGRect)frame
 {
   self = [super initWithFrame:frame];
-  self.backgroundColor = [UIColor redColor];
-  self.resourceText.text = @"Hello";
-    if (self) {
-        // Initialization code
-    }
-    return self;
+  if (self) {
+    // Initialization code
+  }
+  return self;
 }
 
 - (void)setResourceCard:(ResourceCard *)resourceCard {

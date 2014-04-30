@@ -14,7 +14,8 @@ typedef enum {
   CardTypeWildBoar,
   CardTypeCattle,
   CardTypeRock,
-  CardTypeReed
+  CardTypeReed,
+  CardTypeWood
 } CardType;
 @property (nonatomic) int incrementBy;
 @property (nonatomic) CardType cardType;

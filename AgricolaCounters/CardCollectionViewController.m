@@ -32,12 +32,13 @@
     // Do any additional setup after loading the view.
   self.collectionView.dataSource = self;
   self.collectionView.delegate = self;
-  self.data = [[NSMutableArray alloc] initWithObjects:[[ResourceCard alloc] initWithCardType:CardTypeSheep incrementBy:1],
+  self.data = [[NSMutableArray alloc] initWithObjects:
+               [[ResourceCard alloc] initWithCardType:CardTypeSheep incrementBy:1],
                [[ResourceCard alloc] initWithCardType:CardTypeReed incrementBy:2],
                [[ResourceCard alloc] initWithCardType:CardTypeWildBoar incrementBy:3],
                [[ResourceCard alloc] initWithCardType:CardTypeRock incrementBy:4],
                [[ResourceCard alloc] initWithCardType:CardTypeCattle incrementBy:4],
-               [[ResourceCard alloc] initWithCardType:CardTypeSheep incrementBy:3],nil];
+               [[ResourceCard alloc] initWithCardType:CardTypeWood incrementBy:3],nil];
 }
 
 
@@ -65,11 +66,12 @@
   resourceCardCell.takeAllButton.tag = row;
   return resourceCardCell;
 }
+
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
   return self.data.count;
 }
-- (IBAction)progressGame:(id)sender {
 
+- (IBAction)progressGame:(id)sender {
   for (int i = 0; i < self.data.count; i++) {
     ResourceCard *resourceCard =self.data[i];
     [resourceCard incrementCount];
